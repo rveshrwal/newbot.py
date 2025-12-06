@@ -23,7 +23,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 
 # ====== CONFIG ======
-TOKEN = os.environ.get("TOKEN", "8215178700:AAE8SfWwdqww3LU8RC37e6GX_B0ws00c_d4")
+TOKEN = os.environ.get("TOKEN", "")
 DB_PATH = "tx.db"
 LAST_N = 5
 
